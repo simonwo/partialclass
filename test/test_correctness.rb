@@ -1,5 +1,6 @@
 require "test/unit"
-require "./common"
+require_relative "common.rb"
+require_relative "../lib/partialclass.rb"
 
 class CorrectnessTests < Test::Unit::TestCase
 	def setup
@@ -9,7 +10,7 @@ class CorrectnessTests < Test::Unit::TestCase
 
 	def test_method_inheritence
 		assert_respond_to @Instance, :mymethod
-		assert_equal @Instance.mymethod "123456"
+		assert_equal "123456", @Instance.mymethod
 	end
 
 	def test_superclass

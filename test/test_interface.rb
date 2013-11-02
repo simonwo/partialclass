@@ -1,5 +1,6 @@
 require "test/unit"
-require "./common"
+require_relative "common.rb"
+require_relative "../lib/partialclass.rb"
 
 class InterfaceTests < Test::Unit::TestCase
 	def test_for_single
