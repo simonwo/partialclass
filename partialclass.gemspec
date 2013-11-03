@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = PartialClass::VERSION
   spec.authors       = ["Simon Worthington"]
   spec.email         = ["simon@simonwo.net"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.summary       = "Specialise a Ruby class by providing some of its initializer arguments or attributes ahead of time."
+  spec.homepage      = "https://github.com/simonwo/partialclass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
