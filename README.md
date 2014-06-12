@@ -11,7 +11,7 @@ actually initialize it. This is useful for two main reasons:
    required arguments.
 
 This is particularly useful if your class performs some some kind
-of memory- or resource-hungry action in it's initializer that you 
+of memory- or resource-hungry action in its initializer that you 
 want to save until later (e.g. `File.new` opens the file straight 
 away).
 
